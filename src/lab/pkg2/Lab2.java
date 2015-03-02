@@ -20,8 +20,8 @@ public class Lab2 {
         Scanner Keyboard = new Scanner(System.in);//import the Scanner
         int cents, quarters, dimes, nickels, pennies, totalcoin, quarterscent, dimescent, nickelscents;
         System.out.print("Enter amount of change in cents:");//Ask for user to enter how many cents
-        cents = Keyboard.nextInt();
-        if (cents >= 0) {
+        cents = Keyboard.nextInt();//Store the input
+        if (cents >= 0) {//Currency must be positive
             quarters = (cents / 25);//Calculate numbers of Quarter
             quarterscent = quarters * 25;
             System.out.println("quarters: " + quarters + " (=" + quarterscent + ")");
@@ -33,7 +33,7 @@ public class Lab2 {
             System.out.println("nickels: " + nickels + "  (=" + nickelscents + ")");
             pennies = cents - quarters * 25 - dimes * 10 - nickels * 5;//Calculate numbers of penny
             System.out.println("pennies: " + pennies + "  (=" + pennies + ")");
-            totalcoin = quarters + dimes + nickels + pennies;
+            totalcoin = quarters + dimes + nickels + pennies;//count numbers of coin
             System.out.println("Total Number of Coins: " + totalcoin);
         } else {
             System.out.println("Coin can't be negative");
