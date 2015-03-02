@@ -18,19 +18,19 @@ public class Lab2 {
      */
     public static void main(String[] args) {
         Scanner Keyboard = new Scanner(System.in);
-        int cents, quarters, dimes, nickels, pennies,totalcoin;
+        int cents, quarters, dimes, nickels, pennies, totalcoin;
         System.out.print("Enter amount of change in cents:");
         cents = Keyboard.nextInt();
         quarters = (cents / 25);
         System.out.println("quarters: " + quarters);
         dimes = (cents % 25) / 10;
         System.out.println("dimes: " + dimes);
-        nickels = ((cents % 25) / 10) % 5;
+        nickels = ((cents % 25) % 10) / 5;
         System.out.println("nickels: " + nickels);
         pennies = cents - quarters * 25 - dimes * 10 - nickels * 5;
         System.out.println("pennies: " + pennies);
-        totalcoin=quarters+dimes+nickels+pennies;
+        totalcoin = quarters + dimes + nickels + pennies;
         System.out.println("Total Number of Coins: " + totalcoin);
     }
-
 }
+
