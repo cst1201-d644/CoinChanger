@@ -47,7 +47,7 @@ public class CoinChanger {
         System.out.println("I now have " + pennyCount + " pennies.");
         
         // TODO: Print the number of coins in each category.
-        
+        JOptionPane.showMessageDialog("Quarters: " + quarterCount +
         // TODO: Print the total number of coins. 
         
     }
