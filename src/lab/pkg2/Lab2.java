@@ -10,6 +10,7 @@ import java.util.Scanner;
 /**
  *
  * @author JianLang LIN, ZiYing Guo
+ * @Version 3/2/15
  */
 public class Lab2 {
 
@@ -17,7 +18,7 @@ public class Lab2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner Keyboard = new Scanner(System.in);//import the Scanner
+        Scanner Keyboard = new Scanner(System.in);//import the new Scanner
         int cents, quarters, dimes, nickels, pennies, totalcoin, quarterscent, dimescent, nickelscents;
         System.out.print("Enter amount of change in cents:");//Ask for user to enter how many cents
         cents = Keyboard.nextInt();//Store the input
