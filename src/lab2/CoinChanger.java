@@ -11,6 +11,7 @@ import java.util.Scanner;
  * comment
  *
  * @author mingjiehuang
+ * version 03/02/2015
  */
 public class CoinChanger {
 
