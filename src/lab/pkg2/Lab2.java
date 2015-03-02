@@ -22,16 +22,16 @@ public class Lab2 {
         System.out.print("Enter amount of change in cents:");//Ask for user to enter how many cents
         cents = Keyboard.nextInt();
         if (cents >= 0) {
-            quarters = (cents / 25);
+            quarters = (cents / 25);//Calculate numbers of Quarter
             quarterscent = quarters * 25;
             System.out.println("quarters: " + quarters + " (=" + quarterscent + ")");
-            dimes = (cents % 25) / 10;
+            dimes = (cents % 25) / 10;//Calculate numbers of Dime
             dimescent = dimes * 10;
             System.out.println("dimes: " + dimes + "    (=" + dimescent + ")");
-            nickels = ((cents % 25) % 10) / 5;
+            nickels = ((cents % 25) % 10) / 5;//Calculate numbers of nickels
             nickelscents = nickels * 5;
             System.out.println("nickels: " + nickels + "  (=" + nickelscents + ")");
-            pennies = cents - quarters * 25 - dimes * 10 - nickels * 5;
+            pennies = cents - quarters * 25 - dimes * 10 - nickels * 5;//Calculate numbers of penny
             System.out.println("pennies: " + pennies + "  (=" + pennies + ")");
             totalcoin = quarters + dimes + nickels + pennies;
             System.out.println("Total Number of Coins: " + totalcoin);
