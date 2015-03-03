@@ -35,11 +35,11 @@ public class Coins {
         int total = quarters + dime + nickels + pennies; //Calculating the total amount of coins
        
         //Output
-        System.out.println("Quartes: " + quarters + "\t(= " + quarters * 25 + ")");
-        System.out.println("Dimes: " + dime + "\t (= " + dime * 10 + ")");
-        System.out.println("Nickles:" + nickels + "\t (= " + nickels * 5 + ")");
-        System.out.println("pennies:" + pennies + "\t (= " + pennies * 1 + ")");
-        System.out.println("Total amount of coins: " + total);
+        System.out.println("Quartes:\t" + quarters + "\t(= " + quarters * 25 + ")");
+        System.out.println("Dimes  :\t" + dime + "\t(= " + dime * 10 + ")");
+        System.out.println("Nickles:\t" + nickels + "\t(= " + nickels * 5 + ")");
+        System.out.println("pennies:\t" + pennies + "\t(= " + pennies * 1 + ")");
+        System.out.println("Total amount of coins: " + total );
     }
 
 }
