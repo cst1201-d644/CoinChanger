@@ -41,13 +41,13 @@ public class Lab2 {
         System.out.println("And " + dimeLeft + " left.");
 
         int nickelCount= dimeLeft / nickels_value;
-        System.out.println("I have " + nickelCount + "nickel(s).");
+        System.out.println("I have " + nickelCount + " nickel(s).");
         
         int nickelLeft = dimeLeft % nickels_value;
         System.out.println("And " + nickelLeft + " left.");
         
         int penniesCount = nickelLeft / pennies_value;
-        System.out.println("I have " + penniesCount + "penny(ies).");
+        System.out.println("I have " + penniesCount + " penny(ies).");
         
         int penniesLeft = nickelLeft % pennies_value;
         System.out.println("And " + penniesLeft + " left.");
