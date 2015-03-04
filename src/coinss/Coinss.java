@@ -8,7 +8,7 @@ package coinss;
 import javax.swing.JOptionPane;
 
 /**
- *
+ *03/04/2015
  * @mingjiehuang 
  */
 public class Coinss {
