@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Lab 2: Coin Changer 
  * 
  * @author Winnie Wu and Kenny Tsang
- * @version 03/02/2015
+ * @version 03/03/2015
  */
 public class CoinChanger {
 
@@ -21,7 +21,7 @@ public class CoinChanger {
         final int PENNY_VALUE = 1;
         
         
-        System.out.println("Enter amount in change: ");
+        System.out.print("Enter amount in change: ");
         Scanner input = new Scanner(System.in);
         int D = input.nextInt();
         
