@@ -35,7 +35,7 @@ public class Lab2 {
             pennies = cents - quarters * 25 - dimes * 10 - nickels * 5;//Calculate numbers of penny
             System.out.println("pennies: " + pennies + "  (=" + pennies + ")");
             totalcoin = quarters + dimes + nickels + pennies;//count numbers of coin
-            System.out.println("Total Number of Coins: " + totalcoin);
+            System.out.println("Total Number of Coins: " + totalcoin);//Display total coins
         } else {
             System.out.println("Coin can't be negative");
         }
