@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author class
+ * @mingjiehuang 
  */
 public class Coinss {
 
